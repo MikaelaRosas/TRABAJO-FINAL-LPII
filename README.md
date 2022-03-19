@@ -6,3 +6,6 @@ Al planificar unas vacaciones, todos deseamos gastar lo mínimo en boletos de av
 #### Extraeremos información de vuelos de la página:
   *eDESTINOS:*
   "https://www.edestinos.com.pe/"
+## Limitaciones
+El sitio web de eDestinos almacenas gran cantidad de datos pero a la hora de realizar webscrapring en el sitio web nos dimos cuenta que en el apartado de ofertas solo se encontraba el punto de partida Lima y no otras ciudades.
+Cuando notamos esto decidimos continuar con el webscraping pero tomando en cuenta solo los datos de oferta que tengan como punto de partida la ciudad de Lima.
