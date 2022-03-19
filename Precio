@@ -1,0 +1,14 @@
+Precio=[]
+for oferta in Ofertas:
+    precio= oferta.find_element_by_xpath('.//span[@class="price-amount"]').text
+    if precio != "":
+        Precio.append(precio)
+
+Costo=[]
+for j in Precio:
+    if j != float or int:
+        j = j+" dolares"
+    Costo.append(j)
+
+for i in Costo:
+    print(i)
