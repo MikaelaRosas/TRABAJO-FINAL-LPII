@@ -1,0 +1,2 @@
+#Todos los anuncios de las ofertas en una lista
+Ofertas= driver.find_elements_by_xpath('//li[@data-offer-type="Cache"]')
