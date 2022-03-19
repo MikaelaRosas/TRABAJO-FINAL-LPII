@@ -1,4 +1,3 @@
-import pandas as pd
 
 # Creamos la data
 data = pd.DataFrame(columns = ['Partida','Destino','Precio']) 
