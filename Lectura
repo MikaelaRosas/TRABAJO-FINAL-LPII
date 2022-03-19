@@ -1,0 +1,10 @@
+# LECTURA
+
+# Especificar el path (lista de nombre de directorios que contituye la ruta de búqueda actual) de chromedriver.exe 
+# (descargar y guardar en tu computadora)
+
+#Conectamos la carpeta en donde hemos descargado lo anterior con el jupyter nootebook
+driver = webdriver.Chrome('chromedriver.exe')
+
+#En esta línea de código nos pide obtener instagram mediante Chrome
+driver.get('https://www.edestinos.com.pe/')

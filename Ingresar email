@@ -1,0 +1,4 @@
+#Para continuar con el ingreso colocamos Continúa con tu email
+Ingresa_email= WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,"//span[contains(text(),'Inicia sesión con tu email')]"))).click()
+#<em class="btn-text at-email-btn">Ingresa con tu email</em>
+#<span class="menu-item-text">Inicia sesión con tu email</span>
