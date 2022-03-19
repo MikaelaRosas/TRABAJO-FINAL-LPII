@@ -1,0 +1,8 @@
+Pais1=[]
+for oferta in Ofertas:
+    Pais= oferta.find_element_by_xpath('.//div[@class="arrival-country"]').text
+    if Pais != "":
+        Pais1.append(Pais)
+
+for j in Pais1:
+    print(j)
