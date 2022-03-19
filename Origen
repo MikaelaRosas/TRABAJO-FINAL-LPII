@@ -1,0 +1,23 @@
+Origen1=[]
+for oferta in Ofertas:
+    Origen= oferta.find_element_by_xpath('.//div[@class="title"]').text
+    if Origen !="":
+        Origen1.append(Origen)
+
+Origen2=[]
+for i in Origen1:
+    if i != "desde: Lima (LIM)":
+        i = "desde: Lima (LIM)"
+    Origen2.append(i)
+#    print(i)
+#print(Origen2)
+
+Origen=[]
+for j in Origen2:
+#    print(j)
+    if j != '':
+        j = "('PERÚ', 'Lima')"
+    Origen.append(j)
+     
+for i in Origen:
+    print(i)
