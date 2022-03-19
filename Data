@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Creamos la data
+data = pd.DataFrame(columns = ['Partida','Destino','Precio']) 
+data['Partida'] = Origen
+data['Destino'] = Destino
+data['Precio']  = Costo
+data
