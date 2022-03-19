@@ -1,0 +1,6 @@
+# Vamos a entrar con nuestro username
+#Esta línea de código se utiliza para que se coloque el username a través de este cuaderno, la razón por la que diceinput[name='username']
+# es para que el usuario pueda colocar su user nombre
+iniciarSesion= WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR,"[class='account-title']"))).click()
+
+#continua_email= WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,"//button[contains(text(),'Continúa con tu email')]"))).click()
