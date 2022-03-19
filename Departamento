@@ -1,0 +1,8 @@
+
+Departamento=[]
+for oferta in Ofertas:
+    Destino= oferta.find_element_by_xpath('.//div[@class="arrival-city"]').text
+    if Destino !="":    
+        Departamento.append(Destino)
+for i in Departamento:
+    print(i)

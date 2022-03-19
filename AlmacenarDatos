@@ -1,0 +1,3 @@
+
+#Almacenar los datos en un archivo CSV
+data1.to_excel('Ofertas.xlsx')

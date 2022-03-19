@@ -1,0 +1,8 @@
+n=len(Departamento)
+Destino=[]
+for i in range(0,n):
+    j=Pais1[i],Departamento[i]
+    Destino.append(j)
+
+for i in Destino:
+     print(i)
