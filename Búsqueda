@@ -1,0 +1,21 @@
+for oferta in Ofertas:
+        precio= oferta.find_element_by_xpath('.//span[@class="price-amount"]').text
+        #if precio != oferta.find_element_by_xpath('.//span[@class="price-amount"]' or class="count").text:
+            #precio= NULL
+        #else:
+        #print(precio)
+
+        Partida= oferta.find_element_by_xpath('.//div[@class="arrival-country"]').text
+        #if Partida!= oferta.find_element_by_xpath('.//div[@class="departure"]').text:
+            #Partida= NULL
+        #else:
+        #print(Partida)
+
+        Destino= oferta.find_element_by_xpath('.//div[@class="arrival-city"]').text
+            #if Destino!= oferta.find_element_by_xpath('.//div[@class="arrival-city"]').text:
+            #Destino= NULL
+        #else:
+        print("-------------------------------------")
+        print("[Partida]:", Partida)
+        print("[destino]:",Destino)
+        print("[Precio]:",precio)

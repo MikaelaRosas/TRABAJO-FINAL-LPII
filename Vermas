@@ -1,0 +1,1 @@
+vermas= driver.find_element_by_xpath('//div[@class="show-more-deals"]').click()
